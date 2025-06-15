@@ -36,6 +36,10 @@ Retail Sales Analysis: This project is a part of the **Data Analytics with AI In
 * Outline the high-level steps taken for the analysis.
 * How was the data managed throughout the collection, processing, analysis and interpretation steps?
 * Why did you choose the research methodologies you used?
+* ETL Pipeline: Structured method ensures clean, ready-to-analyze data.
+* Descriptive Statistics: First step to understanding trends.
+* Data Visualisation: Converts complex numbers into easy-to-understand insights.
+* Comparative Analysis: Helps with strategic business decisions.
 #
 | Stage          | Management Details                                            |
 | -------------- | ------------------------------------------------------------- |
