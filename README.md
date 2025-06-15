@@ -1,29 +1,58 @@
 
-# Project XYZ
+# Retail Sales Data ETL & Visualisation
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+Retail Sales Analysis: This project is a part of the **Data Analytics with AI Individual Formative Assignment**. It demonstrates an **end-to-end ETL (Extract, Transform, Load)** pipeline and various **data visualisations** using Python tools like Pandas, Matplotlib, Seaborn, and Plotly.
+
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+* To analyse retail sales data and visualise key business insights using Python ETL and visualisation tools.- Source: [Kaggle Retail Dataset](https://www.kaggle.com/datasets/manjeetsingh/retaildataset)
+- Features_data_set
+- sales_data-set
+- stores_data-set
 
 
 ## Business Requirements
-* Describe your business requirements
+* Understand sales trends over time.
+* Determine the impact of promotional markdowns on sales.
+* Compare holiday vs non-holiday sales patterns.
+* Identify regional and store-type differences.
+* Create clear visual dashboards to communicate findings.
+
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+* List here your project hypothesis(es) and how you envision validating it (them)
+| Hypothesis                                         | Validation Method
+| Promotional markdowns increase sales.              | Use bar/line plots to compare sales with/without markdowns.|
+| Holiday weeks have higher sales.                   | Compare average sales in holiday vs non-holiday weeks.
+| Larger stores perform better in sales.             | Group sales by store size and compare with bar plots.
+| Certain departments perform better with markdowns. | Analyze markdown vs sales per department.|
+
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
 * How was the data managed throughout the collection, processing, analysis and interpretation steps?
 * Why did you choose the research methodologies you used?
+#
+| Stage          | Management Details                                            |
+| -------------- | ------------------------------------------------------------- |
+| Collection     | Loaded from Excel using `cleaned_data_set.csv()`              |
+| Processing     | Cleaned missing values, merged datasets, created new features |
+| Analysis       | Used statistical summaries and visual plots                   |
+| Interpretation | Derived insights and supported them with graphs & commentary  |
+
 
 ## The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
+# | Requirement                    | Visualisation                       |Rationale|
+| Identify trends                | Line plot of sales over time        | Shows how sales change weekly            |
+| Markdown impact                | Bar chart: markdown vs sales        | Visualises relationship                  |
+| Holiday vs non-holiday         | Box plot or grouped bar plot        | Easily compare the distributions         |
+| Regional/store-type comparison | Heatmap or grouped bar              | Displays performance differences clearly |
+| Report-ready visuals           | Plotly Dash or Seaborn style charts | Interactive and professional appearance  |
 
 ## Analysis techniques used
 * List the data analysis methods used and explain limitations or alternative approaches.
