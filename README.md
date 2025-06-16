@@ -74,6 +74,22 @@ Retail Sales Analysis: This project is a part of the **Data Analytics with AI In
 * How were data insights communicated to technical and non-technical audiences?
 * Explain how the dashboard was designed to communicate complex data insights to different audiences. 
 
+## Fixed errors and bugs
+  - Below is the issues of some of the bugs encountered whilst starting up VS code to log into Copilot and git it self. This stopped my progress to even start the project, numerous hours of trial and error to then understand that my user name on my laptop profile clashed with the coding in the terminal bash which I then could not enter anything with git: add, commit -m or push. After finally getting the error and bugs fixed through reinstallation of the applications and creating a new system environment I was then able to start my project on Sunday (2 days after the project had begun)
+  - ![alt text](image.png)
+  - 025-06-12 13:23:22.459 [info] [certificates] Removed 10 expired certificates
+  - 2025-06-12 13:24:22.787 [error] [default] github.copilot.signIn: TokenResultError--[CopilotAuthError]: Timed out waiting for authentication provider to register
+  - at getSessionHelper (c:\Users\ajayc\.vscode\extensions\github.copilot-1.333.0\extension\src\session.ts:84:42)
+    at signInCommand (c:\Users\ajayc\.vscode\extensions\github.copilot-1.333.0\extension\src\auth.ts:24:5)
+    at c:\Users\ajayc\.vscode\extensions\github.copilot-1.333.0\extension\src\telemetry.ts:25:13
+    at Wb.h (file:///c:/Users/ajayc/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:41516) {
+  result: {
+    reason: 'NotSignedIn',
+    message: 'Timed out waiting for authentication provider to register'
+  },
+  [cause]: undefined
+}
+
 ## Unfixed Bugs
 * Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
 * Did you recognise gaps in your knowledge, and how did you address them?
